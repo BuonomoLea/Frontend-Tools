@@ -40,12 +40,13 @@ Organisé autour d’une navigation claire, ce site propose des liens vers des g
 - Mode sombre pour un meilleur confort visuel
 - Ajout des media queries
 - Ajout d'un fichier variables pour centraliser le design
-- Version PWA pour un accès hors-ligne
+- Version PWA pour un accès partiellement hors-ligne une fois que le design sera totalement responsive !
 - Filtres dynamiques par thème ou par fonctionnalité
 
 ## Contribution
 
 Ce projet est ouvert aux suggestions.
+N'hésitez pas à me contater !
 
 ## Auteur
 
