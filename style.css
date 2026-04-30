@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
 
+:root {
+  --color-bg: #DCEBFE;
+  --color-primary: #2924b2;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,15 +15,15 @@
 }
 body {
   position: relative;
-  background-color: #eef6fa;
+  background-color: var(--color-bg);
   font-family: 'Raleway', sans-serif;
   color: #151615;
 }
 /* scrollbar */
 
 body {
-  --sb-track-color: #eef6fa;
-  --sb-thumb-color: #2924b2;
+  --sb-track-color: var(--color-bg);
+  --sb-thumb-color: var(--color-primary);
   --sb-size: 14px;
 }
 
@@ -85,10 +90,10 @@ h2 {
 }
 .sectionTitle {
   cursor: default;
-  color: #2924b2;
+  color: var(--color-primary);
 }
 a {
-  color: #2924b2;
+  color: var(--color-primary);
 }
 .separateur {
   width: 80%;
@@ -123,7 +128,7 @@ a {
   bottom: -5px;
   width: 0;
   height: 2px;
-  background-color: #2924b2;
+  background-color: var(--color-primary);
   transition: width 0.3s ease-in-out;
 }
 .a:hover::after {
@@ -142,7 +147,7 @@ a {
   right: 2.5rem;
   font-size: 2em;
   font-weight: 600;
-  fill: #2924b2;
+  fill: var(--color-primary);
   padding: 0.4rem;
   background-color: transparent;
   border: none;
@@ -156,10 +161,10 @@ header {
   height: 8vh;
   padding-right: 1rem;
   padding-left: 3rem;
-  background-color: #2924b2;
+  background-color: var(--color-primary);
   z-index: 1000;
   visibility: hidden;
-  box-shadow: 1px 2px 8px -1px #2924b269;
+  box-shadow: 1px 2px 8px -1px var(--color-primary)69;
 }
 header,
 nav,
@@ -200,7 +205,7 @@ nav,
   margin: 0 auto;
   text-align: left;
   padding: 0.4rem;
-  background-color: #2924b2;
+  background-color: var(--color-primary);
   z-index: 333;
   display: none;
 }
@@ -334,7 +339,7 @@ form,
 }
 .boxFieldset {
   padding: 2rem;
-  border: 2px solid #2924b2;
+  border: 2px solid var(--color-primary);
   border-radius: 10px;
   background: #eaebf693;
   box-shadow:
@@ -386,8 +391,8 @@ form,
   width: 50%;
   cursor: pointer;
   font-size: larger;
-  color: #2924b2;
-  border: 2px solid #2924b2;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
   transition: all 0.3s ease;
   position: relative;
 }
@@ -412,7 +417,7 @@ form,
   top: 0;
   width: 0;
   height: 100%;
-  background: #2924b2;
+  background: var(--color-primary);
 }
 .cssInput,
 .cssTextarea,
@@ -426,7 +431,7 @@ form,
     -12px -12px 25px #ffffff;
 }
 legend {
-  color: #2924b2;
+  color: var(--color-primary);
 }
 .legendSpan {
   margin-left: 1rem;
