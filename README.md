@@ -10,20 +10,15 @@ Regroupement d'une sélection de liens vers des sites pour développeurs ou desi
 
 Des générateurs CSS, des polices gratuites, des services d’optimisation SEO, des assistants IA pour le code, ainsi que de nombreux autres outils techniques pour améliorer la productivité et les performances.
 
-## Accès rapide
-
-- Dépôt GitHub : https://github.com/BuonomoLea/Frontend-Tools
-- Site en ligne : https://buonomolea.github.io/Frontend-Tools/
-
 ## Technologies
 
 - HTML, CSS, JavaScript
 - Responsive design
 
-## Contribution
+## Contributions
 
 Ce projet est ouvert aux suggestions.
-N'hésitez pas ouvrir un Pull Request !
+N'hésitez pas à ouvrir un Pull Request !
 
 ## À venir
 
@@ -36,4 +31,3 @@ Créé par Léa Buonomo
 
 - Portfolio : https://buonomolea.github.io/BUONOMO_Lea_Portfolio_2025_FR/
 - LinkedIn : https://www.linkedin.com/in/l%C3%A9a-b-179849208/
-- Email : leabuonomo@hotmail.fr
