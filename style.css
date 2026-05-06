@@ -18,23 +18,18 @@ body {
   background-color: var(--color-bg);
   font-family: 'Raleway', sans-serif;
   color: #151615;
-}
-
-body {
-  --sb-track-color: var(--color-bg);
-  --sb-thumb-color: var(--color-primary);
-  --sb-size: 14px;
+  --sb-track-color: var(--color-primary);
+  --sb-thumb-color: var(--color-bg);
+  --sb-size: 16px;
 }
 body::-webkit-scrollbar {
   width: var(--sb-size);
 }
 body::-webkit-scrollbar-track {
   background: var(--sb-track-color);
-  border-radius: 3px;
 }
 body::-webkit-scrollbar-thumb {
   background: var(--sb-thumb-color);
-  border-radius: 3px;
 }
 @supports not selector(::-webkit-scrollbar) {
   body {
@@ -289,8 +284,12 @@ header, nav, .ul-nav, .li-nav {
 
 /* footer */
 footer {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 0.4rem 0;
+  padding: 2vw;
+}
+.footer-nav {
+  width: 35vw;
 }

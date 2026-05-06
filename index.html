@@ -45,6 +45,18 @@
       </div>
       <nav aria-label="Main Navigation">
         <ul class="ul-nav">
+          <!-- ESSENTIEL -->
+          <li class="li-nav">
+            <a class="firstAnchor" href="#essentiel">ESSENTIEL</a>
+            <ul class="sous-menu">
+              <li class="li-sousMenu">
+                <a href="#ESSENTIELA">UI kit personnel</a>
+              </li>
+              <li class="li-sousMenu">
+                <a href="#ESSENTIELB">Outils kit personnel</a>
+              </li>
+            </ul>
+          </li>
           <!-- HTML -->
           <li class="li-nav">
             <a class="firstAnchor" href="#html">HTML</a>
@@ -126,6 +138,75 @@
     </header>
     
     <main>
+      <!-- SECTION ESSENTIEL -->
+      <section class="section1" id="essentiel">
+        <!-- TITLE -->
+        <div class="title">
+          <h2 class="sectionTitle" alt>ESSENTIEL</h2>
+        </div>
+
+        <!-- LEFT -->
+        <div class="TOOLS padding-s">
+          <h3 id="ESSENTIELA">UI kit personnel :</h3>
+          <ul>
+            <li class="sectionLi">
+              <strong>
+                <a class="a" href="https://buonomolea.github.io/ui-css-style-guides/" rel="noopener">UI CSS Style Guides</a>
+              </strong> : Guides de styles et composants UI
+            </li>
+
+            <li class="sectionLi">
+              <strong>
+                <a class="a" href="https://buonomolea.github.io/Frontend-Tools/" rel="noopener">Frontend Tools</a>
+              </strong> : Ce super répertoire d'outils pour le quotidien
+            </li>
+
+            <li class="sectionLi">
+              <strong>
+                <a class="a" href="https://buonomolea.github.io/Css-Js-Snippets/" rel="noopener">CSS & JS Snippets</a>
+              </strong> : Snippets CSS & JS prêts à l’emploi 
+            </li>
+
+            <li class="sectionLi">
+              <strong>
+                <a class="a" href="https://buonomolea.github.io/UI-color-palettes/" rel="noopener">UI Color Palettes</a>
+              </strong> : Palettes de couleurs pour interfaces 
+            </li>
+
+          </ul>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="TOOLS padding-s">
+          <h3 id="ESSENTIELB">Outils kit personnel :</h3>
+          <ul>
+            <li class="sectionLi">
+              <strong>
+                <a class="a" href="https://buonomolea.github.io/Background-css-generator/" rel="noopener">CSS Background Generator</a>
+              </strong> : Générateur de backgrounds CSS
+            </li>
+
+            <li class="sectionLi">
+              <strong>
+                <a class="a" href="https://buonomolea.github.io/PNG-to-SVG-Converter/" rel="noopener">PNG to SVG Converter</a>
+              </strong> : Convertisseur PNG/JPG vers SVG
+            </li>
+
+            <li class="sectionLi">
+              <strong>
+                <a class="a" href="https://buonomolea.github.io/Convertisseur-image-vers-WebP/" rel="noopener">Image to WebP Converter</a>
+              </strong> : Convertisseur d’images vers WebP 
+            </li>
+
+            <li class="sectionLi">
+              <strong>
+                <a class="a" href="https://buonomolea.github.io/Diagram-Editor/" rel="noopener">Diagram Editor</a>
+              </strong> : Éditeur de diagrammes simple et rapide
+            </li>            
+          </ul>
+        </div>
+      </section>
+
       <!-- SCETION HTML -->
       <section class="section1" id="html">
         <!-- TITLE -->
@@ -1914,6 +1995,20 @@
       </section>
     </main>
 
-    <footer><p>&copy; 2024 Leyamagic. Tous droits réservés.</p></footer>
+    <footer class="footer" role="contentinfo">
+      <nav class="footer-nav">
+        <a class="firstAnchor" href="#essentiel">ESSENTIEL</a>
+        <a class="firstAnchor" href="#html">HTML</a>
+        <a class="firstAnchor" href="#css">CSS</a>
+        <a class="firstAnchor" href="#javascript">JAVASCRIPT</a>
+        <a class="firstAnchor" href="#seo">SEO, TEST ET AUTRES</a>
+      </nav>
+
+      <p class="footer-text">
+        &copy; <script>document.write(new Date().getFullYear())</script>
+        <a href="https://github.com/BuonomoLea" target="_blank" rel="noopener">Léa Buonomo</a>.
+        Frontend Tools.
+      </p> 
+    </footer>
   </body>
 </html>
