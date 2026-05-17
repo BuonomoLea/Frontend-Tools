@@ -480,6 +480,7 @@ footer {
       / 1fr;
   }
   .firstTitle {
+    margin-top: 2vh;
     padding: 4rem 2rem 0rem 2rem;
   }
   .sectionTitle {
