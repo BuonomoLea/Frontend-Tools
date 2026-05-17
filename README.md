@@ -22,8 +22,7 @@ N'hésitez pas à ouvrir un Pull Request !
 
 ## À venir
 
-- Ajout des media queries
-- Version PWA pour un accès partiellement hors-ligne une fois que le design sera totalement responsive !
+- Version PWA pour un accès rapide
 
 ## Auteur
 
