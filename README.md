@@ -29,5 +29,5 @@ N'hésitez pas à ouvrir un Pull Request !
 
 Créé par Léa Buonomo
 
-- Portfolio : https://buonomolea.github.io/BUONOMO_Lea_Portfolio_2025_FR/
+- Portfolio : [https://buonomolea.github.io/BUONOMO_Lea_Portfolio_2025_FR/](https://buonomolea.github.io/portfolio-lea-buonomo/)
 - LinkedIn : https://www.linkedin.com/in/l%C3%A9a-b-179849208/
