@@ -44,6 +44,22 @@ li, a {
 main {
   min-height: max-content;
 }
+/* BTN TOP */
+.btn-fixed {
+  padding: 1vh 1vw;
+  cursor: pointer;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-fixed svg {
+  fill: var(--color-primary);
+  width: 85px;
+  height: 60px;
+}
 /* ACCESSIBILITY */
 section, div, .a {
   overflow: hidden;
@@ -295,15 +311,43 @@ footer {
 }
 
 @media (max-width: 767px) {
+  /* TOP */
+  .btn-fixed svg {
+    width: 50px;
+    height: 35px;
+  }
+  .btnMenu {
+    right: 1.5rem;
+  }
+  /* HEADER */
   header {
     padding: 0 1.5vw;
   }
+  ul {
+    padding-bottom: 2vh;
+  }
+    .sectionLi {
+      font-size: 3.5vw;
+    }
+    .sectionLi strong {
+      font-size: 4.1vw;
+    }
   .li-nav a {
     font-size: 2.6vw;
     white-space: nowrap;
     font-weight: 600;
     margin: 0.2rem 0.4rem;
   }
+    .li-sousMenu {
+      width: 100%;
+    }
+    .li-sousMenu a {
+      display: flex;
+      width: 100%;
+      padding: 1.5vw 0;
+      margin: 0 0.4rem;
+      font-size: 2.8vw;
+    }
   h3 {
     max-width: 100%;
     font-size: 4.5vw;
@@ -347,25 +391,7 @@ footer {
       'right' auto
       / 1fr;
   }
-    ul {
-      padding-bottom: 2vh;
-    }
-      .sectionLi {
-        font-size: 3.5vw;
-      }
-      .sectionLi strong {
-        font-size: 4.1vw;
-      }
-        .li-sousMenu {
-          width: 100%;
-        }
-        .li-sousMenu a {
-          display: flex;
-          width: 100%;
-          padding: 1.5vw 0;
-          margin: 0 0.4rem;
-          font-size: 2.8vw;
-        }
+  /* FOOTER */
   footer {
     flex-direction: column;
   }
@@ -377,5 +403,120 @@ footer {
     font-size: 3vw;
     font-weight: 600;
     padding-top: 5vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px)  {
+  /* TOP */
+  .btn-fixed svg {
+    width: 85px;
+    height: 60px;
+  }
+  /* NAVIGATION */
+  svg {
+    width: 50px;
+    height: 50px;
+  }
+  header nav {
+    width: 90%;
+  }
+  header .ul-nav {
+    width: 95%;
+  }
+    .li-nav a {
+      white-space: nowrap;
+      font-size: 2.3vw;
+    }
+  .sous-menu {
+    width: 100vw;
+  }
+  .li-sousMenu {
+    width: 100%;
+  }
+  .li-sousMenu a {
+    display: flex;
+    width: 100%;
+    padding: 1.5vw 0;
+    margin: 0 0.8rem;
+    font-size: 2.8vw;
+  }
+  /* SECTION */
+  .section1 {
+    height: max-content;
+    grid:
+    'title' auto
+    'HTML' 1fr
+    'AI' auto
+    / 1fr;
+  }
+  .CSSGenerator {
+    height: max-content;
+    grid:
+      'title' auto
+      'CSS1' 1fr
+      'CSS2' auto
+      / 1fr;
+  }
+  .CSSGenerator2 {
+    height: max-content;
+    grid:
+      'title' auto
+      'CSS3' 1fr
+      'CSS4' auto
+      / 1fr;
+  }
+  .section3 {
+    height: max-content;
+    grid:
+      'title' auto
+      'containerJS' 1fr
+      / 1fr;
+  }
+  .section4 {
+    height: max-content;
+    grid:
+      'title' auto
+      'left' 1fr
+      'right' auto
+      / 1fr;
+  }
+  .firstTitle {
+    padding: 4rem 2rem 0rem 2rem;
+  }
+  .sectionTitle {
+    padding: 2vh 0 1vh 0;
+    font-size: 4.5vw;    
+  }
+  h3 {
+    max-width: 100%;
+    font-size: 3.5vw;
+  }
+    ul {
+      padding-bottom: 0vh;
+    }
+    .sectionLi {
+      font-size: 2.6vw;
+    }
+    .sectionLi strong {
+      font-size: 3.2vw;
+    }
+  /* FOOTER */
+  footer {
+    width: 100%;
+    flex-direction: column;
+    padding: 4vw 4vw 2vw 4vw;
+  }
+  .footer-nav {
+    width: 100%;
+    font-size: 3vw;
+    font-weight: 700;
+  }
+  .footer-text {
+    font-size: 3vw;
+    font-weight: 500;
+    padding-top: 3vw;
+    align-self: flex-end;
+  }
+  .footer-text a {
+    font-weight: 600;
   }
 }

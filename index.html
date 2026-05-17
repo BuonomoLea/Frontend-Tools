@@ -24,7 +24,7 @@
 
     <title>Mes outils gratuits pour le Front End</title>    
   </head>
-  <body>
+  <body id="top">
     <button class="btnMenu" id="btnMenu" type="button" title="burger bouton menu">
       <svg xmlns="http://www.w3.org/2000/svg" height="24" width="21" viewBox="0 0 448 512">
         <path
@@ -32,6 +32,10 @@
         />
       </svg>
     </button>
+
+    <a href="#top" class="btn-fixed" aria-label="Revenir en haut" role="button">
+      <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M297.4 169.4C309.9 156.9 330.2 156.9 342.7 169.4L534.7 361.4C547.2 373.9 547.2 394.2 534.7 406.7C522.2 419.2 501.9 419.2 489.4 406.7L320 237.3L150.6 406.6C138.1 419.1 117.8 419.1 105.3 406.6C92.8 394.1 92.8 373.8 105.3 361.3L297.3 169.3z"></path></svg>
+    </a>
 
     <header id="header">
       <div class="logo">
@@ -141,7 +145,7 @@
       <!-- SECTION ESSENTIEL -->
       <section class="section1" id="essentiel">
         <!-- TITLE -->
-        <div class="title">
+        <div class="title firstTitle">
           <h2 class="sectionTitle" alt>ESSENTIEL</h2>
         </div>
 
@@ -2007,7 +2011,7 @@
       <p class="footer-text">
         &copy; <script>document.write(new Date().getFullYear())</script>
         <a href="https://github.com/BuonomoLea" target="_blank" rel="noopener">Léa Buonomo</a>.
-        Frontend Tools.
+        Frontend Tools
       </p> 
     </footer>
   </body>
