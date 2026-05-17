@@ -293,3 +293,79 @@ footer {
 .footer-nav {
   width: 35vw;
 }
+
+@media (max-width: 767px) {
+  header {
+    padding-left: 1rem;
+  }
+  .li-nav a {
+    font-size: 2.5vw;
+    white-space: nowrap;
+    font-weight: 600;
+    margin: 0.2rem 0.4rem;
+  }
+  h3 {
+    max-width: 100%;
+    font-size: 4.5vw;
+  }
+  .section1 {
+    height: max-content;
+    grid:
+    'title' auto
+    'HTML' 1fr
+    'AI' auto
+    / 1fr;
+  }
+  .CSSGenerator {
+    height: max-content;
+    grid:
+      'title' auto
+      'CSS1' 1fr
+      'CSS2' auto
+      / 1fr;
+  }
+  .CSSGenerator2 {
+    height: max-content;
+    grid:
+      'title' auto
+      'CSS3' 1fr
+      'CSS4' auto
+      / 1fr;
+  }
+  .section3 {
+    height: max-content;
+    grid:
+      'title' auto
+      'containerJS' 1fr
+      / 1fr;
+  }
+  .section4 {
+    height: max-content;
+    grid:
+      'title' auto
+      'left' 1fr
+      'right' auto
+      / 1fr;
+  }
+    ul {
+      padding-bottom: 2vh;
+    }
+      .sectionLi {
+        font-size: 3.5vw;
+      }
+      .sectionLi strong {
+        font-size: 4.1vw;
+      }    
+  footer {
+    flex-direction: column;
+  }
+  .footer-nav {
+    width: 95%;
+    font-size: 3vw;
+  }
+  .footer-text {
+    font-size: 3vw;
+    font-weight: 600;
+    padding-top: 5vw;
+  }
+}
