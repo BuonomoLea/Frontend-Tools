@@ -296,10 +296,10 @@ footer {
 
 @media (max-width: 767px) {
   header {
-    padding-left: 1rem;
+    padding: 0 1.5vw;
   }
   .li-nav a {
-    font-size: 2.5vw;
+    font-size: 2.6vw;
     white-space: nowrap;
     font-weight: 600;
     margin: 0.2rem 0.4rem;
@@ -355,7 +355,17 @@ footer {
       }
       .sectionLi strong {
         font-size: 4.1vw;
-      }    
+      }
+        .li-sousMenu {
+          width: 100%;
+        }
+        .li-sousMenu a {
+          display: flex;
+          width: 100%;
+          padding: 1.5vw 0;
+          margin: 0 0.4rem;
+          font-size: 2.8vw;
+        }
   footer {
     flex-direction: column;
   }
